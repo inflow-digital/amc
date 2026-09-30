@@ -28,7 +28,7 @@ $ErrorActionPreference = "Stop"
 function Install-Amc {
     param([string]$PairUrl, [string]$PairCode, [string]$Name, [bool]$NoStart)
 
-    $DefaultSource = "amc-commander@git+https://github.com/inflow-digital/amc"
+    $DefaultSource = "amc-commander @ https://github.com/inflow-digital/amc/archive/refs/heads/main.zip"
     $RunningAsFile = [bool]$PSCommandPath
 
     # Native tools (uv, amc) write progress to stderr. Under "Stop", Windows PowerShell 5.1 turns

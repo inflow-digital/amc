@@ -56,7 +56,7 @@ If `amc` is "not found" afterwards in your shell, prepend the tool dir for this 
 and tell the user to run `uv tool update-shell` once so new terminals find it.
 
 Already have Python tooling and prefer it? Equivalent manual steps:
-`uv tool install --python 3.12 amc-commander@git+https://github.com/inflow-digital/amc`
+`uv tool install --python 3.12 "amc-commander @ https://github.com/inflow-digital/amc/archive/refs/heads/main.zip"`
 then `amc up` (or `amc host pair RELAY_URL CODE` + `amc service install host`).
 
 ## 3. Connect the agents

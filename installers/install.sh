@@ -16,7 +16,7 @@
 
 set -eu
 
-AMC_DEFAULT_SOURCE="amc-commander@git+https://github.com/inflow-digital/amc"
+AMC_DEFAULT_SOURCE="amc-commander @ https://github.com/inflow-digital/amc/archive/refs/heads/main.zip"
 UV_INSTALL_URL="https://astral.sh/uv/install.sh"
 
 say() { printf '==> %s\n' "$*"; }

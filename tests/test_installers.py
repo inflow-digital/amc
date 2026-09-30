@@ -13,7 +13,7 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 INSTALL_SH = ROOT / "installers" / "install.sh"
 INSTALL_PS1 = ROOT / "installers" / "install.ps1"
-DEFAULT_SOURCE = "amc-commander@git+https://github.com/inflow-digital/amc"
+DEFAULT_SOURCE = "amc-commander @ https://github.com/inflow-digital/amc/archive/refs/heads/main.zip"
 
 SH = shutil.which("sh")
 # install.sh tests need a POSIX sh; the install.ps1 checks run everywhere (pwsh one only when installed).
