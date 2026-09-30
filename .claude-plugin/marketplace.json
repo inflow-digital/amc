@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "amc",
+  "description": "AMC (Agent MCP Commander) plugins for Claude Code.",
+  "owner": {
+    "name": "AMC contributors"
+  },
+  "plugins": [
+    {
+      "name": "amc",
+      "source": "./",
+      "description": "Skill to install, pair and connect AMC (Agent MCP Commander) end to end.",
+      "homepage": "https://github.com/inflow-digital/amc",
+      "license": "MIT",
+      "category": "development"
+    }
+  ]
+}

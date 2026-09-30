@@ -1,0 +1,8 @@
+AMC (Agent MCP Commander)
+Copyright (c) 2026 AMC contributors. Licensed under the MIT License (see LICENSE).
+
+Tool and argument names of the built-in executor are kept compatible with
+DesktopCommanderMCP (https://github.com/wonderwhy-er/DesktopCommanderMCP, MIT) so
+either can serve as a device backend. No DesktopCommanderMCP source code is included.
+
+Third-party runtime dependencies and their licenses are listed in THIRD_PARTY.md.

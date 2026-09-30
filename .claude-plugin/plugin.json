@@ -1,0 +1,12 @@
+{
+  "name": "amc",
+  "version": "0.9.0",
+  "description": "AMC (Agent MCP Commander): install, pair and connect AMC so Claude can safely use your machines through a self-hosted relay.",
+  "author": {
+    "name": "AMC contributors"
+  },
+  "homepage": "https://github.com/inflow-digital/amc",
+  "repository": "https://github.com/inflow-digital/amc",
+  "license": "MIT",
+  "keywords": ["mcp", "remote", "relay", "install", "amc"]
+}
